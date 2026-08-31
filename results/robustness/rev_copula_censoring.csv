@@ -1,0 +1,13 @@
+istasyon,indeks,varyant,n,tau,copula,T_AND_rekor
+Tekirdağ,SPEI,tam,40,0.788,Frank,66.9
+Tekirdağ,SPEI,son-olay hariç,39,0.776,Frank,102.5
+Tekirdağ,SPEI,sınır olayları hariç,39,0.776,Frank,102.5
+Tekirdağ,SPI,tam,39,0.834,Gumbel,45.0
+Tekirdağ,SPI,son-olay hariç,38,0.857,Gumbel,44.7
+Tekirdağ,SPI,sınır olayları hariç,38,0.857,Gumbel,44.7
+İpsala,SPEI,tam,30,0.821,Joe,50.6
+İpsala,SPEI,son-olay hariç,29,0.812,Joe,67.4
+İpsala,SPEI,sınır olayları hariç,29,0.812,Joe,67.4
+İpsala,SPI,tam,32,0.868,Frank,49.6
+İpsala,SPI,son-olay hariç,31,0.864,Frank,35.8
+İpsala,SPI,sınır olayları hariç,31,0.864,Frank,35.8

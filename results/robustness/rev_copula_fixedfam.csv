@@ -1,0 +1,17 @@
+istasyon,indeks,aile,T_AND
+Tekirdağ,SPEI,Gumbel,36.8
+Tekirdağ,SPEI,Frank,66.9
+Tekirdağ,SPEI,Joe,34.6
+Tekirdağ,SPEI,Gauss,42.4
+Tekirdağ,SPI,Gumbel,45.0
+Tekirdağ,SPI,Frank,45.3
+Tekirdağ,SPI,Joe,45.0
+Tekirdağ,SPI,Gauss,45.0
+İpsala,SPEI,Gumbel,51.1
+İpsala,SPEI,Frank,73.4
+İpsala,SPEI,Joe,50.6
+İpsala,SPEI,Gauss,53.6
+İpsala,SPI,Gumbel,49.5
+İpsala,SPI,Frank,49.6
+İpsala,SPI,Joe,49.5
+İpsala,SPI,Gauss,49.5

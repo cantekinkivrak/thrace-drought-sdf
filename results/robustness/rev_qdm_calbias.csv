@@ -1,0 +1,4 @@
+model,P yıllık sapma %,T sapma °C,P q10 sapma %,P q90 sapma %,T q10 °C,T q90 °C
+ACCESS-CM2,11.2,-2.19,9.0,3.0,-4.34,0.31
+GFDL-ESM4,14.3,-0.39,77.0,3.0,-0.13,0.68
+MRI-ESM2-0,3.7,0.45,27.0,-5.0,1.79,-0.71

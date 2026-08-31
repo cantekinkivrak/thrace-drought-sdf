@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article."
+title: "thrace-drought-sdf: nonstationary and copula-based drought SDF curves for Thrace, Türkiye"
+type: software
+authors:
+  - family-names: "Kıvrak"
+    given-names: "Cantekin"
+    orcid: "https://orcid.org/0000-0002-6221-2469"
+    email: "cantekin.kivrak@tarimorman.gov.tr"
+    affiliation: "Tekirdağ Namık Kemal University; Atatürk Soil, Water and Agricultural Meteorology Research Institute, Kırklareli"
+  - family-names: "Şener"
+    given-names: "Mehmet"
+    orcid: "https://orcid.org/0000-0002-6736-0567"
+    affiliation: "Department of Biosystems Engineering, Tekirdağ Namık Kemal University"
+version: "1.0.0"
+date-released: "2026-08-22"
+license: MIT
+repository-code: "https://github.com/KULLANICI-ADI/thrace-drought-sdf"
+preferred-citation:
+  type: article
+  title: "From static to dynamic drought hazard: nonstationary and copula-based severity-duration-frequency curves for Thrace, Türkiye, under observed and projected warming"
+  authors:
+    - family-names: "Kıvrak"
+      given-names: "Cantekin"
+    - family-names: "Şener"
+      given-names: "Mehmet"
+  journal: "Journal of Hydrology"
+  year: 2026
+  notes: "Submitted"

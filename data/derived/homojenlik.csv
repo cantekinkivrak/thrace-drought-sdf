@@ -1,0 +1,17 @@
+istasyon,değişken,Pettitt_yıl,Pettitt_p,SNHT_yıl,SNHT_T,SNHT_anlamlı
+Edirne,Sıcaklık,1998,0.0,2006,38.3,True
+Edirne,Yağış,1994,0.8415,2021,2.7,False
+Kırklareli,Sıcaklık,1998,0.0,2006,33.7,True
+Kırklareli,Yağış,2004,0.5077,2008,4.5,False
+Lüleburgaz,Sıcaklık,1997,0.0,1997,32.5,True
+Lüleburgaz,Yağış,2014,0.7305,1966,6.2,False
+Sarıyer,Sıcaklık,1997,0.0,2006,33.4,True
+Sarıyer,Yağış,1995,1.0,2018,2.4,False
+Tekirdağ,Sıcaklık,1997,0.0,2006,38.5,True
+Tekirdağ,Yağış,2004,0.2649,2018,8.4,True
+Uzunköprü,Sıcaklık,1998,0.0,2006,34.3,True
+Uzunköprü,Yağış,1981,0.1376,2021,6.0,False
+Çorlu,Sıcaklık,1997,0.0,2006,36.6,True
+Çorlu,Yağış,1981,0.5016,2018,6.3,False
+İpsala,Sıcaklık,1998,0.0,2006,29.9,True
+İpsala,Yağış,2014,0.0557,2015,14.0,True

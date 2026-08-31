@@ -1,0 +1,17 @@
+name,indeks,copula,CvM,p_boot_tie,B_ok,p_boot
+Edirne,SPEI,Gumbel,0.0615,1.0,400,0.0
+Edirne,SPI,Frank,0.1091,1.0,400,0.013
+Kırklareli,SPEI,Frank,0.0933,1.0,400,0.087
+Kırklareli,SPI,Joe,0.0639,0.78,400,0.0
+Lüleburgaz,SPEI,Gumbel,0.057,1.0,400,0.0
+Lüleburgaz,SPI,Joe,0.0674,0.59,400,0.0
+Sarıyer,SPEI,Frank,0.0912,1.0,400,0.045
+Sarıyer,SPI,Frank,0.0578,1.0,400,0.115
+Tekirdağ,SPEI,Frank,0.0845,0.555,400,0.0
+Tekirdağ,SPI,Gumbel,0.0596,1.0,400,0.0
+Uzunköprü,SPEI,Frank,0.1673,1.0,400,0.013
+Uzunköprü,SPI,Frank,0.2241,1.0,400,0.007
+Çorlu,SPEI,Frank,0.0536,1.0,400,0.033
+Çorlu,SPI,Gauss,0.0362,0.635,400,0.013
+İpsala,SPEI,Joe,0.0416,0.715,400,0.003
+İpsala,SPI,Frank,0.0733,1.0,400,0.117

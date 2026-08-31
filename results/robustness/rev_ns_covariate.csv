@@ -1,0 +1,8 @@
+name,n,LRT_zaman_p,LRT_sicaklik_p,AIC_zaman,AIC_sicaklik,beta_sicaklik,tercih
+Edirne,21,0.2469,0.051,134.1,131.6,1.25,sıcaklık
+Kırklareli,20,0.0235,0.1803,127.3,130.6,-0.68,zaman
+Sarıyer,21,0.0396,0.005,126.9,123.3,2.85,sıcaklık
+Tekirdağ,24,0.002,0.0004,152.2,149.3,5.14,sıcaklık
+Uzunköprü,21,0.0271,0.0036,133.9,130.2,3.37,sıcaklık
+Çorlu,23,0.1636,0.0005,147.6,137.3,3.6,sıcaklık
+İpsala,23,0.0053,0.0006,146.0,142.0,4.75,sıcaklık

@@ -1,0 +1,17 @@
+name,indeks,tau_S_D,tau_I_D
+Edirne,SPEI,0.841,0.619
+Edirne,SPI,0.851,0.678
+Kırklareli,SPEI,0.871,0.677
+Kırklareli,SPI,0.797,0.456
+Lüleburgaz,SPEI,0.851,0.693
+Lüleburgaz,SPI,0.778,0.571
+Sarıyer,SPEI,0.86,0.714
+Sarıyer,SPI,0.876,0.713
+Tekirdağ,SPEI,0.788,0.553
+Tekirdağ,SPI,0.834,0.568
+Uzunköprü,SPEI,0.843,0.665
+Uzunköprü,SPI,0.831,0.721
+Çorlu,SPEI,0.855,0.674
+Çorlu,SPI,0.814,0.643
+İpsala,SPEI,0.821,0.601
+İpsala,SPI,0.868,0.706
