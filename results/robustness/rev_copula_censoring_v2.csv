@@ -1,0 +1,17 @@
+st,idx,variant,excluded,n,tau,cop,TAND
+Tekirdağ,SPEI,full sample,—,40,0.788,Frank,66.9
+Tekirdağ,SPEI,terminal event excluded,2019/01–2024/12,39,0.776,Frank,102.5
+Tekirdağ,SPEI,record event excluded,2019/01–2024/12,39,0.776,Frank,102.5
+Tekirdağ,SPEI,both excluded,2019/01–2024/12,39,0.776,Frank,102.5
+Tekirdağ,SPI,full sample,—,39,0.834,Gumbel,45.0
+Tekirdağ,SPI,terminal event excluded,2024/11–2024/12,38,0.857,Gumbel,44.7
+Tekirdağ,SPI,record event excluded,2019/06–2023/12,38,0.824,Gumbel,61.0
+Tekirdağ,SPI,both excluded,"2019/06–2023/12, 2024/11–2024/12",37,0.849,Frank,61.0
+İpsala,SPEI,full sample,—,30,0.821,Joe,50.6
+İpsala,SPEI,terminal event excluded,2022/01–2024/12,29,0.812,Joe,67.4
+İpsala,SPEI,record event excluded,2015/12–2021/11,29,0.807,Joe,74.1
+İpsala,SPEI,both excluded,"2015/12–2021/11, 2022/01–2024/12",28,0.798,Joe,110.6
+İpsala,SPI,full sample,—,32,0.868,Frank,49.6
+İpsala,SPI,terminal event excluded,2022/01–2024/12,31,0.864,Frank,35.8
+İpsala,SPI,record event excluded,2016/03–2021/11,31,0.859,Frank,37.1
+İpsala,SPI,both excluded,"2016/03–2021/11, 2022/01–2024/12",30,0.854,Frank,46.1

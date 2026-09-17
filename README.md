@@ -2,7 +2,7 @@
 
 Analysis code and derived datasets for:
 
-> Kıvrak, C., Şener, M. — *From static to dynamic drought hazard: nonstationary and copula-based severity–duration–frequency curves for Thrace, Türkiye, under observed and projected warming.* Submitted to **Journal of Hydrology**.
+> Kıvrak, C., Şener, M. — *From static to dynamic drought hazard: nonstationary and copula-based severity–duration–frequency curves for Thrace, Türkiye, under observed and projected warming.* Submitted to **Stochastic Environmental Research and Risk Assessment**.
 
 The study builds drought severity–duration–frequency (SDF) curves for the Thrace region of Türkiye (8 stations, 1965–2024) from SPI and SPEI at five accumulation scales, using the critical-drought / total-probability framework, and extends them in four directions: (i) nonstationary frequency analysis (time-varying GEV location + logistic drought-occurrence model), (ii) copula-based joint severity–duration return periods, (iii) future SDF curves from three bias-corrected CMIP6 models (SSP2-4.5 / SSP5-8.5), and (iv) a composite drought hazard-priority index for adaptation screening.
 
@@ -13,7 +13,7 @@ code/
   01_data_preparation/   temperature gap filling (seasonality-aware neighbour-anomaly
                          method) and a-posteriori detection of PCHIP-filled precipitation
   02_indices/            Thornthwaite PET, SPI (Thom gamma, zero-mix) and SPEI
-                         (log-logistic, unbiased PWM) at k = 1, 3, 6, 9, 12 months
+                         (log-logistic, plotting-position PWM) at k = 1, 3, 6, 9, 12 months
   03_stationary_sdf/     run theory, critical drought severity series (D = 1–12),
                          seven-candidate distribution fitting (AD selection),
                          total-probability SDF curves, nonparametric bootstrap CIs
@@ -60,8 +60,17 @@ Python ≥ 3.10 with `numpy`, `pandas`, `scipy`, `matplotlib`, `xarray`, `netcdf
 
 ## Citation
 
-If you use this code or the derived datasets, please cite the paper (see `CITATION.cff`) and the archived release (Zenodo DOI on the repository page).
+If you use this code or the derived datasets, please cite the paper (see `CITATION.cff`) and the archived release (Zenodo DOI on the repository page; all versions: https://doi.org/10.5281/zenodo.22201076).
 
 ## License
 
 Code is released under the MIT License (see `LICENSE`). Derived datasets and figures are released under CC BY 4.0. The underlying raw meteorological observations remain the property of MGM.
+
+## Changelog
+
+- **v1.1.0 (2026-09-17)** — pre-submission corrections to the robustness programme (Stochastic Environmental Research and Risk Assessment submission):
+  - `code/08_robustness/rev_s9_future_v2.py` → `results/robustness/rev_future_uncertainty_v2.csv`: year-resampling bootstrap of the future SDF changes recomputed with exactly the Table 10 statistic (AD-selected family per cell held fixed and refitted, model median, station change, regional median; 1,000 replicates). Supersedes `rev_future_uncertainty*.csv` from `rev_s6_future.py`, which used an L-moment/MLE GEV on the regional median series and is kept for provenance only.
+  - `code/08_robustness/rev_s6_censoring_v2.py` → `results/robustness/rev_copula_censoring_v2.csv`: copula boundary-event censoring extended with a genuine record-event exclusion and a both-excluded variant, with the withheld event dates listed (Table S8). Supersedes `rev_copula_censoring.csv`.
+  - `data/derived/validasyon.csv`: per-station validation sample sizes corrected to the observed station-months (5,744 in total; the 16 imputed/corrected cells were previously counted).
+  - README and CITATION.cff: SPEI PWM description (plotting-position estimator, (i − 0.35)/n), target journal, repository URL.
+- **v1.0.0 (2026-08-31)** — submission release.
