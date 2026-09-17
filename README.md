@@ -4,6 +4,8 @@ Analysis code and derived datasets for:
 
 > Kıvrak, C., Şener, M. — *From static to dynamic drought hazard: nonstationary and copula-based severity–duration–frequency curves for Thrace, Türkiye, under observed and projected warming.* Submitted to **Stochastic Environmental Research and Risk Assessment**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22806673.svg)](https://doi.org/10.5281/zenodo.22806673)
+
 The study builds drought severity–duration–frequency (SDF) curves for the Thrace region of Türkiye (8 stations, 1965–2024) from SPI and SPEI at five accumulation scales, using the critical-drought / total-probability framework, and extends them in four directions: (i) nonstationary frequency analysis (time-varying GEV location + logistic drought-occurrence model), (ii) copula-based joint severity–duration return periods, (iii) future SDF curves from three bias-corrected CMIP6 models (SSP2-4.5 / SSP5-8.5), and (iv) a composite drought hazard-priority index for adaptation screening.
 
 ## Repository layout
@@ -60,7 +62,7 @@ Python ≥ 3.10 with `numpy`, `pandas`, `scipy`, `matplotlib`, `xarray`, `netcdf
 
 ## Citation
 
-If you use this code or the derived datasets, please cite the paper (see `CITATION.cff`) and the archived release (Zenodo DOI on the repository page; all versions: https://doi.org/10.5281/zenodo.22201076).
+If you use this code or the derived datasets, please cite the paper (see `CITATION.cff`) and the archived release (Zenodo DOI on the repository page; all versions: https://doi.org/10.5281/zenodo.22201075; v1.1.0: https://doi.org/10.5281/zenodo.22806673).
 
 ## License
 
